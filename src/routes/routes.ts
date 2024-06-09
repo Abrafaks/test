@@ -33,7 +33,7 @@ const swaggerSpec = swaggerJSDoc(swaggerOptions);
  *               max_length:
  *                 type: integer
  *                 description: |
- *                   The maximum length the generated tokens can have. Range: 50-100.
+ *                   The maximum length the generated tokens can have. Range: 10-200. Has to be higher than min_length.
  *                 example: 60
  *             required:
  *               - url
