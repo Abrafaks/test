@@ -12,8 +12,11 @@ const swaggerDefinition: SwaggerDefinition = {
       email: 'marcin.matoga.poznan@gmail.com',
     },
   },
-  host: 'https://llm-apgrew6o2a-lm.a.run.app',
-  basePath: '/',
+  servers: [
+    {
+      url: 'https://llm-apgrew6o2a-lm.a.run.app',
+    },
+  ],
 };
 
 export const swaggerOptions: SwaggerOptions = {
